@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.stream.IntStream;
 /*
 TODO
+- Clean code!!
 - man må ikke lægge ned på første runde!
 - læg ned er buggy
 - lav så man kan tage jokeren (må man tage den op på hånden?)
@@ -141,6 +142,7 @@ public class Game {
             return true;
     }
 
+    // TODO: refactor player1Turn, way too bloated.
     private void player1Turn() {
         boolean drewDiscard = false;
         boolean loopBool = true;
